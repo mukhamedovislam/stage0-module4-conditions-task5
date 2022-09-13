@@ -11,7 +11,7 @@ public class LeapYearPrinter {
 			System.out.println("not leap");
 			break;
 		default:
-			System.out.println("not leap");
+			System.out.println("leap");
 			break;
 	}
     }
