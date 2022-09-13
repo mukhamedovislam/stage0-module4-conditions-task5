@@ -10,7 +10,7 @@ public class LeapYearPrinter {
 		case 0:
 			System.out.println("not leap");
 			break;
-		case default:
+		default:
 			System.out.println("not leap");
 			break;
 	}
