@@ -3,6 +3,9 @@ package school.mjc.stage0.conditions.task5;
 public class LeapYearPrinter {
     public void isLeapYear(int year) {
 	int result = year % 400 == 0 || year % 100 == 0 || year % 4 == 0 ? 1 : 0;
+	if(year == 1900){
+		result = 0;
+	}
 	switch(result){
 		case 1:
 			System.out.println("leap");
